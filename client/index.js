@@ -1,7 +1,7 @@
 var fs = require('fs');
 
-function ReadAppend(file, appendFile){
-    fs.readFile(appendFile, function (err,data) {
+function ReadAppend(file, appendFile) {
+    fs.readFile(appendFile, function (err, data) {
 
         if (err) throw err;
         console.log('File was read');
@@ -13,14 +13,15 @@ function ReadAppend(file, appendFile){
 
     });
 
-    }
+}
 
-    if ('serviceWorker' in navigator) {
-        console.log('service worker works');
-        window.addEventListener('load', () => {
-          navigator.serviceWorker
-          .register('/serviceWorker.js')
-          .then(reg => console.log('service worker registered'))
-          .catch(err => console.log('Error: ${err}')) 
-        })//setting up the service worker
-    }
+
+if ('serviceWorker' in navigator) {
+    console.log('service worker works');
+    window.addEventListener('load', () => {
+        navigator.serviceWorker
+            .register('/serviceWorker.js')
+            .then(reg => console.log('service worker registered'))
+            .catch(err => console.log('Error: ${err}'))
+    })//setting up the service worker
+}
