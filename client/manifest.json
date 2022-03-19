@@ -1,0 +1,30 @@
+{
+    "name": "Linkii",
+    "short_name": "Linkii",
+    "start_url": "index.html",
+    "background_color": "#317EFB",
+    "theme_color": "#317EFB",
+    "display": "standalone",
+    "icons": [
+    {
+        "src": "images/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any"
+    },
+
+    {
+        "src": "images/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any"
+    },
+
+    {
+        "src": "images/maskable_icon.png",
+        "sizes": "196x196",
+        "type": "image/png",
+        "purpose": "maskable" 
+      }
+  ]
+}
