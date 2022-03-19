@@ -1,0 +1,212 @@
+#linkiiDiv {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+background-color: white;
+margin: 0%;
+width: 60%;
+-moz-box-shadow: 0 0 5px rgb(0, 18, 53);
+-webkit-box-shadow: 0 0 5px rgb(0, 16, 46);
+box-shadow: 0px 0px 5px rgb(4, 8, 31);
+padding-bottom: 20px;
+display: inline-block;
+    text-align: center;
+}
+
+#linkiiDiv3 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+background-color: white;
+padding-bottom: 20px;
+padding: 20px;
+width: 50%;
+-moz-box-shadow: 0 0 5px rgb(0, 18, 53);
+-webkit-box-shadow: 0 0 5px rgb(0, 16, 46);
+box-shadow: 0px 0px 5px rgb(4, 8, 31);
+        }
+
+#linkii {
+    transition: all .2s ease-in-out; 
+    font-family: 'Varela Round', sans-serif;
+    font-size: 120px;
+    padding: 0px;
+    margin: 0%;
+    -webkit-text-stroke: 1px #c800eb;
+    background: -webkit-linear-gradient(rgb(236, 242, 255), rgb(255, 170, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite
+}
+
+@keyframes example {
+    25%   {font-size: 130px; 
+        letter-spacing: 12px;
+        -webkit-text-stroke: 1px #a100eb;}
+    25%   {font-size: 150px;  
+        letter-spacing: 17px;
+        -webkit-text-stroke: 1px #6e00eb;}
+  }
+
+
+h2 {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    
+}
+h3 {
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding-top: -100px;
+    margin: 0%;
+}
+
+
+#buttonImg, img { 
+    border-radius: 10px;
+	transition: all .2s ease-in-out; 
+    transform: scale(0.85); 
+}
+
+img { 
+    transform: scale(0.75); 
+}
+
+input {
+    position: relative;
+    padding: 2px;
+    margin: 0px;
+   border: 3px solid #3d49f0;
+   border-radius: 10px;
+   width: 300px;
+   text-align: center;
+   
+
+}
+
+#buttonImg:hover { 
+    	transform: scale(1.0); 
+        padding-bottom: 10px;
+        -moz-box-shadow: 0 0 5px rgb(0, 86, 246);
+-webkit-box-shadow: 0 0 50px rgb(0, 86, 246);
+box-shadow: 0px 0px 5px rgb(0, 37, 246);
+    }
+
+#blinkiis {
+    display: inline-block;
+    text-align: center;
+}
+
+#blinkiis2 {
+    display: inline-block;
+    text-align: center;
+}
+
+body  {
+   background-image: url("images/file2.png");
+    background-color: #ffffff;
+  }
+
+  #start {
+    transition: all .2s ease-in-out;  
+    position:relative;
+    font-family: 'Varela Round', sans-serif;
+    color: #3d49f0;
+    background-color: #ffffff;
+    font-size: 30px;
+    padding: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20%;
+    border: none;
+  }
+
+  #back {
+    transition: all .2s ease-in-out;
+    font-family: 'Varela Round', sans-serif;
+    color: #3d49f0;
+    background-color: #ffffff;
+    font-size: 24px;
+    padding: 4px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20%;
+    border: none;
+  }
+
+  #start:hover, #back:hover {
+    border-radius: 10%;
+    -moz-box-shadow: 0 0 5px rgb(0, 86, 246);
+    -webkit-box-shadow: 0 0 5px rgb(0, 86, 246);
+    box-shadow: 0px 0px 5px rgb(0, 37, 246);
+  }
+
+  #back:hover {
+font-size: 28px;
+  }
+
+  #start:hover {
+    font-size: 34px;
+      }
+     
+      @keyframes example2 {
+        25%   {font-size: 80px; letter-spacing: 9px; 
+            -webkit-text-stroke: 1px #a100eb;}
+        25%   {font-size: 90px;  letter-spacing: 12px;
+            -webkit-text-stroke: 1px #a100eb;}
+      }
+
+      @keyframes example3 {
+        25%   {font-size: 70px; letter-spacing: 6px; 
+            -webkit-text-stroke: 1px #a100eb;}
+        25%   {font-size: 80px;  letter-spacing: 9px; 
+            -webkit-text-stroke: 1px #a100eb;}
+      }
+
+
+      @media only screen and (max-width: 750px) {
+        #linkii {
+            font-size: 70px;
+            animation-name: example2;
+            animation-duration: 6s;
+            animation-iteration-count: infinite
+        }
+
+        #linkiiDiv {
+        width: 80%;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        input {
+   
+           width: 95%;
+      
+        }
+    }
+
+        
+      @media only screen and (max-width: 385px) {
+        #linkii {
+            font-size: 60px;
+            animation-name: example3;
+            animation-duration: 6s;
+            animation-iteration-count: infinite
+        }
+
+        #linkiiDiv {
+        width: 90%;
+        }
+
+        #linkiiDiv3 {
+            width: 75%;
+            }
+
+
+    }
+
+
+
