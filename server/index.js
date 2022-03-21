@@ -14,16 +14,7 @@ res.send("Welcome to your server")
 })
 
 
-app.post('/login', (req, res) =>{
-    console.log(req.body.billy) 
-    console.log(req.body.biolet) 
-    console.log(req.body.blondie) 
-    console.log(req.body.bela) 
-    console.log(req.body.blue) 
-    console.log(req.body.blissy)
-})
-
-app.post('/signup', (req, res) =>{
+app.post('/editLink', (req, res) =>{
     console.log(req.body.billy) 
     console.log(req.body.biolet) 
     console.log(req.body.blondie) 
